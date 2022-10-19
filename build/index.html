@@ -117,35 +117,52 @@
             <!-- Create Contact form-->
 
     
-
-   <form class="bg-white mx-auto rounded-3xl w-1/2 border-red-300 dark:bg-white  dark:text-black p-6 text-left d-inline ">     
+    <div class="form my-12 ">
+   <form class=" mx-auto rounded-3xl w-1/2 sm:w-7/12 border-black dark:border-white dark:bg-white bg-white dark:text-black p-6 text-left d-inline shadow-xl">     
     
-  <label for="first-name" class="font-bold">First Name</label>
-  <input name="first-name" type="text" class="feedback-input " placeholder="First Name" />  
+    <div class="my-2 p-2">
+  <label for="first-name" class="font-bold p-2">First Name</label>
+  <input name="first-name" type="text" class="feedback-input w-1/2" placeholder="First Name" />  
   <br> 
+</div>
 
-   <label for="last-name" class="font-bold">Last Name</label>
-  <input name="last-name" type="text" class="feedback-input" placeholder="Full Name" />  
+  <div class="my-2 p-2">
+   <label for="last-name" class="font-bold p-2">Last Name</label>
+  <input name="last-name" type="text" class="feedback-input w-1/2" placeholder="Full Name" />  
   <br> 
+</div>
 
-   <label for="email" class="font-bold">E-mail</label>
-  <input name="email" type="text" class="feedback-input" placeholder="E-mail" />
+  <div class=" my-2 p-2">
+   <label for="email" class="font-bold p-2">E-mail</label>
+  <input name="email" type="text" class="feedback-input p-2 w-1/2" placeholder="E-mail" />
    <br>
+</div>
 
-   <label for="continent" class="font-bold">Continent</label>
+
+     <div class=" my-2 p-2">
+   <label for="continent" class="font-bold p-2">Continent</label>
     <select id="countinent" name="continent">
-      <option value="Africa">Africa</option>
-      <option value="North-America">North-America</option>
-       <option value="SouthAmerica">South-America</option>
-      <option value="Asia">Asia</option>
-      <option value="Europe">Europe</option>
+      <option value="Africa">Africa</option> 
+     <option value="Asia">Asia</option>
+     <option value="Europe">Europe</option>
+      <option value="North-America">North-America</option> 
       <option value="Oceania">Oceania</option>
+       <option value="SouthAmerica">South-America</option>
     </select>
  <br>
-  <textarea name="text" class="feedback-input mx-200 h-40"  placeholder="Comment here"></textarea>
+
+</div>
+
+
+  <div class="my-2 text-center mx-auto">
+  <textarea name="text" class="feedback-input h-60 sm:w-600 p-1 mx-2 bg-stone-100"  placeholder="Write your message here..."></textarea>
   <br>
-  <input type="submit" value="SUBMIT"/>
+
+  <input class="font-bold p-2 " type="submit" value="SUBMIT"/>
+</div>
+
 </form>
+</div>
     </main>
   </body>
 </html>
