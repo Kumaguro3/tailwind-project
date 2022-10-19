@@ -582,6 +582,46 @@ video {
   margin-bottom: 3rem;
 }
 
+.mx-12 {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.mx-10 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.mx-8 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.mx-6 {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.mx-5 {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 .mb-12 {
   margin-bottom: 3rem;
 }
@@ -696,6 +736,18 @@ video {
 
 .gap-8 {
   gap: 2rem;
+}
+
+.gap-12 {
+  gap: 3rem;
+}
+
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.gap-6 {
+  gap: 1.5rem;
 }
 
 .space-x-8 > :not([hidden]) ~ :not([hidden]) {
