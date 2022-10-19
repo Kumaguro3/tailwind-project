@@ -5,13 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Acme Rockets</title>
+    <title>To The Moon</title>
   </head>
   <body class="min-h-screen bg-slate-50 dark:bg-black dark:text-white">
-    <header class="sticky top-0 z-10 bg-teal-700 text-white">
+    <header class="sticky top-0 z-10 bg-sky-700 text-white">
       <section class="mx-auto flex max-w-4xl items-center justify-between p-4">
-        <h1 class="text-3xl font-medium">Acme Rockets</h1>
+        <h1 class="text-3xl font-medium">
+          <a href="#hero">🚀 ✨ To The Moon </a>
+        </h1>
+        <div>
+          <button
+            id="mobile-open-button"
+            class="text-3xl focus:outline-none sm:hidden"
+          >
+            <!--  code for hamburger navbar button in html and hidden above the sm display-->
+            &#9776;
+          </button>
+          <!--  nav bar below is not visible on mobile -->
+          <nav
+            class="hidden space-x-8 text-xl font-medium sm:block"
+            aria-label="main"
+          >
+            <a href="#space-travels" class="hover:opacity-90"
+              >Our space travels</a
+            >
+            <a href="#testimonials" class="hover:opacity-90">Testimonials</a>
+            <a href="#contact" class="hover:opacity-70">Contact info</a>
+          </nav>
+        </div>
       </section>
     </header>
+    <main class="max w-4xl mx-auto"></main>
   </body>
 </html>
