@@ -13,7 +13,7 @@
 
       <section class="mx-auto flex max-w-4xl items-center justify-between p-4">
 
-
+  <!--Inside the header-->
     <h1 class="text-3xl font-medium " >
           <a href="#lost-in-japan"> 🎌 Lost in Japan </a>
         </h1>
@@ -104,21 +104,22 @@
 
         <hr class="mx-auto bg-black dark:bg-white w-1/2">
 
+        <!--Testimonials-->
         <section id="testimonials" class="p-6 my-12">
             <h2 class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">
                 Testimonials 💬
             </h2>
-            <p class="text-center text-2xl mx-6 p-4 text-slate-700 dark:text-slate-200">
+            <p class="text-center text-2xl mx-6 p-6 text-slate-700 dark:text-slate-500 border-black rounded-3xl dark:bg-white ">
                 "I would like to thank the team for designing such a wonderful and well-arranged trip to North Japan. I shall surely consider my future trips through Lost in Japan. 
                 <br/>
                 The best part of the tour was the stay at this luxurius and beautiful Ryokan in Fukushima prefecture within the peace of the countryside. We tried excellent restaurants with a large variety of dishes offered, it truly made our holiday memorable." 
                 <br/>
            
-                <i class=" text-slate-400 dark:text-slate-400">A Luxury Stay Customer</i>
+                <i class=" text-slate-400 dark:text-slate-300">A Luxury Stay Customer</i>
             </p>
             <br/>
            
-             <p class="text-center text-2xl mx-6 p-4  text-slate-700 dark:text-slate-200">
+             <p class="text-center text-2xl mx-6 p-6 text-slate-700 dark:text-slate-500 border-black rounded-3xl dark:bg-white ">
               "It was the best in everything! Staying in Kyoto was the best experience of the trip, we also enjoyed the sightseeing a lot. 
               <br/>
              Further to the charges of the trip in which you arranged for us was also very cheap and reasonable compared to other travel agents. Hence I thank you from the bottom of my heart that you arranged the best trip for me and my family."   
@@ -136,10 +137,8 @@
             </h2>
 
             <!-- Create Contact form-->
-
-    
-    <div class="container my-12 mx-auto w-3/4">
-   <form onsubmit="sendEmail(); reset(); return false" class=" mx-auto rounded-3xl border-black dark:border-white dark:bg-white bg-white dark:text-black p-6 text-left d-inline shadow-xl"  >     
+    <div class="container my-12 mx-auto w-3/4 border-black">
+   <form onsubmit="sendEmail(); reset(); return false" class=" mx-auto rounded-3xl dark:border-white dark:bg-white bg-white dark:text-black p-6 text-left d-inline shadow-xl"  >     
     
     <div class=" p-2">
   <label for="first-name" class="font-bold p-2">First Name</label>
@@ -190,6 +189,8 @@
     <script src="https://smtpjs.com/v3/smtp.js">
     </script> 
 
+
+<!--JS here below requiere to create an account and to enter your email and password to receive inquiry sent by customers to your adress email-->
     <script> 
       function sendEmail(){
       Email.send({
@@ -212,8 +213,6 @@
     }
     
     </script>
-  
 
- 
   </body>
 </html>
